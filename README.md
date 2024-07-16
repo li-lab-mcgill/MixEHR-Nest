@@ -1,7 +1,7 @@
 # MixEHR-Nest
 MixEHR-Nest: Identifying Subphenotypes within Electronic Health Records through Hierarchical Guided-Topic Modeling
 ## Overview
-<img title="Model Overview" alt="Alt text" src="/figures/fig.model.png">
+<img title="Model Overview" alt="Alt text" src="/figures/fig_model.png">
 
 ### (a) Initialization
 For each patient `d`, MixEHR-Nest initializes the Phenotype topic prior for subtopic `m` within Phenotype topic `k` (`α_{d,k_m}`) by aligning the patient's ICD9-Code with Phenotype topics using an ICD-Phecode mapping. 
